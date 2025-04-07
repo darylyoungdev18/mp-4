@@ -1,6 +1,6 @@
 export async function fetchStocks() {
     try {
-      const response = await fetch("http://localhost:3001/api/routes");
+      const response = await fetch("https://mp-4-azure.vercel.app//api/routes");
   
       if (!response.ok) {
         throw new Error("Failed to fetch stock data");
